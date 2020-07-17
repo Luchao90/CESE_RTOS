@@ -12,7 +12,19 @@ Este script se desarrolló para probar la performance de los trabajos prácticos
 
 ```python3  test_random.py```
 
+test.py quedó de la version original, asique se quitará eventualmente. Posiblemente se integren sus funcionalidades al test_random.
+
 (en linux, posiblemente se necesite llamar con sudo)
+
+# Configuraciones dentro de test_random.py
+
+* DEFAULT_BAURDATE : baudrate para el puerto serie
+* SOM : start of message.
+* EOM : end of message.
+* T_INTER_FRAME : tiempo en sengundos que esperará para enviar comandos
+* DEFAULT_CMD_NRO : nro por omisión de la cantidad de comandos a generar
+* DEFAULT_BYTE_MAX_COUNT : nro por omisión de la cantidad máxima de bytes por paquete.
+* DEFAULT_BYTE_MIN_COUNT : nro por omisión de la cantidad mínima de bytes por paquete (no se usa todavía)
 
 # Colaboradores
 
